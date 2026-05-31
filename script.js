@@ -96,9 +96,7 @@ function renderTodos() {
             </div>
         </li>
         `;
-
         if (todo.status === "done") {
-
             doneBox.innerHTML += li;
 
         } else if (todoDate.getTime() === today.getTime()) {

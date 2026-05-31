@@ -87,7 +87,7 @@ function renderTodos() {
                     >`
                     : ""
                 }
-
+ 
                 <img
                     src="https://staging.svgrepo.com/show/21045/delete-button.svg"
                     onclick="deleteTodo(${todo.id})"
